@@ -1,0 +1,8 @@
+Create Environemnt - Bash
+python -m venv .venv
+
+Activate environment - Base
+source .venv/Scripts/activate
+
+If using VPN, to install pacakges
+pip --proxy https://proxy-chain.intel.com:912 install  <packageName>
